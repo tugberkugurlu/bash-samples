@@ -53,5 +53,15 @@ You can revoke the executable permission by using the `-` instead of `+`:
 chmod u-x hw
 ```
 
+## Shebang (#!)
+
+More info [here](https://en.wikipedia.org/wiki/Shebang_(Unix)). In executable files, it allows the author of the file to specify what to use 
+to execute the script. It could bash, zsh, python, etc. 
+
+```
+#!/bin/bash
+```
+
+It is always to good to define this inside the file to be specific.
 
 
