@@ -1,0 +1,23 @@
+#!/bin/bash
+
+echo "looking for first param now"
+
+FILE=$1
+wc $FILE
+
+printf "\n"
+
+echo "looking for all params now"
+
+ALL_PARAMS=$@
+
+for IFILE in $ALL_PARAMS
+do
+
+echo "$IFILE is in progress..."
+wc $IFILE
+
+printf "\n"
+
+done
+

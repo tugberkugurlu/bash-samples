@@ -64,4 +64,8 @@ to execute the script. It could bash, zsh, python, etc.
 
 It is always to good to define this inside the file to be specific.
 
+## Parameters
+You can pass parameters to script files and capture them with special variable names like $1, $2, $3, $4 and so on. Also, you 
+can capture all the parameters using `$@` variable.
+
 
